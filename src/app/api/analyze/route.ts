@@ -3,6 +3,13 @@ import { AdvancedTigerSystem } from '@/lib/advanced-tiger-system';
 
 export async function POST(request: NextRequest) {
   try {
+    // Debug environment variables
+    console.log('Environment check:', {
+      GITHUB_TOKEN: process.env.GITHUB_TOKEN ? 'SET' : 'MISSING',
+      GEMINI_API_KEY: process.env.GEMINI_API_KEY ? 'SET' : 'MISSING',
+      TIGER_DATABASE_URL: process.env.TIGER_DATABASE_URL ? 'SET' : 'MISSING'
+    });
+    
     const { username, repositories } = await request.json();
     
     if (!username || !repositories || repositories.length === 0) {
