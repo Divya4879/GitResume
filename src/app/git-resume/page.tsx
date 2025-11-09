@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
-import { Github, Brain, CheckCircle, Clock, Download, ArrowLeft, Share2 } from 'lucide-react';
+import { Github, Brain, CheckCircle, Clock, ArrowLeft, Share2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 
@@ -253,30 +253,6 @@ function GitResumeContent() {
     }
   };
 
-  const downloadResumeSnapshot = async () => {
-    try {
-      const html2canvas = (await import('html2canvas')).default;
-      const element = document.getElementById('resume-content');
-      
-      if (element) {
-        const canvas = await html2canvas(element, {
-          scale: 2,
-          useCORS: true,
-          allowTaint: true,
-          backgroundColor: '#ffffff'
-        });
-        
-        const link = document.createElement('a');
-        link.download = `${username}-resume-${new Date().toISOString().split('T')[0]}.png`;
-        link.href = canvas.toDataURL('image/png');
-        link.click();
-      }
-    } catch (error) {
-      console.error('Resume download failed:', error);
-      alert('Resume download failed. Please try again.');
-    }
-  };
-
   if (!username || repos.length === 0) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center">
@@ -427,7 +403,7 @@ function GitResumeContent() {
                     🎉 Your Tiger GitResume is Ready!
                   </h1>
                   <p className="text-gray-300">
-                    Comprehensive analysis by 3 specialized agents using Tiger Cloud's zero-copy forks and pg_text search
+                    Comprehensive analysis by 4 specialized AI agents with real repository code analysis and career guidance
                   </p>
                 </div>
 
@@ -494,6 +470,59 @@ function GitResumeContent() {
                 {resume?.resume || 'Resume generation in progress...'}
               </div>
             </div>
+
+            {/* Individual Repository Analysis */}
+            {analyses?.repositoryInsights && (
+              <div className="mb-8">
+                <h3 className="text-2xl font-bold text-white mb-6">Individual Repository Analysis</h3>
+                <div className="grid gap-6">
+                  {repos.map((repo, index) => {
+                    const repoInsights = (analyses as any).repositoryInsights?.filter((insight: any) => insight.repository === repo) || [];
+                    
+                    return (
+                      <div key={index} className="bg-white/5 rounded-xl p-6 border border-white/10">
+                        <div className="flex items-center justify-between mb-4">
+                          <h4 className="text-xl font-semibold text-white flex items-center">
+                            <Github className="w-5 h-5 mr-2 text-purple-400" />
+                            {repo}
+                          </h4>
+                          <div className="text-sm text-gray-400">
+                            {repoInsights.length} categories analyzed
+                          </div>
+                        </div>
+                        
+                        <div className="grid md:grid-cols-2 gap-4">
+                          {repoInsights.map((insight: any, idx: number) => (
+                            <div key={idx} className="bg-white/5 rounded-lg p-4">
+                              <div className="flex items-center justify-between mb-2">
+                                <span className="text-sm font-medium text-purple-300">{insight.category}</span>
+                                <span className="text-lg font-bold text-white">{insight.score.toFixed(1)}/10</span>
+                              </div>
+                              
+                              {/* 2-3 line analysis */}
+                              <div className="space-y-1 mb-3">
+                                {insight.insights.slice(0, 2).map((line: string, lineIdx: number) => (
+                                  <p key={lineIdx} className="text-sm text-gray-300">{line}</p>
+                                ))}
+                              </div>
+                              
+                              {/* Top actionable */}
+                              {insight.actionables && insight.actionables.length > 0 && (
+                                <div className="border-t border-white/10 pt-2">
+                                  <p className="text-xs text-yellow-300">
+                                    💡 {insight.actionables[0]}
+                                  </p>
+                                </div>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
 
             {/* Skills & Recommendations */}
             {resume?.skills && (
