@@ -1,0 +1,163 @@
+
+> gitresume@0.1.0 dev
+> next dev
+
+   ▲ Next.js 16.0.1 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://10.255.255.254:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 867ms
+ ○ Compiling / ...
+ GET / 200 in 4.2s (compile: 3.9s, render: 244ms)
+ GET / 200 in 62ms (compile: 5ms, render: 57ms)
+ ✓ Compiled in 101ms
+ ✓ Compiled in 57ms
+ GET / 200 in 375ms (compile: 156ms, render: 220ms)
+ GET / 200 in 58ms (compile: 6ms, render: 52ms)
+ GET /github-analysis 200 in 1065ms (compile: 1022ms, render: 43ms)
+GitHub token loaded: YES
+Token starts with: ghp_vu7Nwq
+📡 API Call #1: /users/Divya4879
+📡 API Call #2: /users/Divya4879/repos?sort=updated&per_page=100
+ GET /api/github?username=Divya4879 200 in 1288ms (compile: 340ms, render: 947ms)
+ GET /git-resume?username=Divya4879&repos=GitResume%2CDSA-Interview-Ready%2CGitPortfolio%2CApexQuest%2CCognify 200 in 2.5s (compile: 2.4s, render: 39ms)
+🚀 Starting Tiger Cloud veteran analysis for Divya4879 with 5 repositories
+🚀 Starting Tiger Cloud veteran analysis for Divya4879
+🐅 Tiger Service ID: xahs2zgwkg
+🔧 Testing Tiger CLI connection...
+⚠️ Resetting stuck analyzing flag
+🚀 Starting Tiger Cloud veteran analysis for Divya4879 with 5 repositories
+🚀 Starting Tiger Cloud veteran analysis for Divya4879
+🐅 Tiger Service ID: xahs2zgwkg
+🔧 Testing Tiger CLI connection...
+✅ Tiger CLI connected successfully
+📊 Processing 5 repositories with Tiger Cloud veteran analysis
+🔍 Tiger veteran analysis: GitResume
+🔍 Tiger veteran analysis: DSA-Interview-Ready
+🔍 Tiger veteran analysis: GitPortfolio
+🔍 Tiger veteran analysis: ApexQuest
+🔍 Tiger veteran analysis: Cognify
+✅ Tiger Cloud veteran analysis complete: 7.4/10
+✅ Tiger veteran analysis complete for Divya4879: 7.4/10
+ POST /api/analyze 200 in 1780ms (compile: 166ms, render: 1614ms)
+✅ Tiger CLI connected successfully
+📊 Processing 5 repositories with Tiger Cloud veteran analysis
+🔍 Tiger veteran analysis: GitResume
+🔍 Tiger veteran analysis: DSA-Interview-Ready
+🔍 Tiger veteran analysis: GitPortfolio
+🔍 Tiger veteran analysis: ApexQuest
+🔍 Tiger veteran analysis: Cognify
+✅ Tiger Cloud veteran analysis complete: 7.4/10
+✅ Tiger veteran analysis complete for Divya4879: 7.4/10
+ POST /api/analyze 200 in 1805ms (compile: 223ms, render: 1582ms)
+♻️ Cache hit for: /users/Divya4879
+♻️ Cache hit for: /users/Divya4879/repos?sort=updated&per_page=100
+ GET /api/github?username=Divya4879 200 in 23ms (compile: 3ms, render: 20ms)
+♻️ Cache hit for: /users/Divya4879
+♻️ Cache hit for: /users/Divya4879/repos?sort=updated&per_page=100
+ GET /api/github?username=Divya4879 200 in 19ms (compile: 5ms, render: 15ms)
+📝 [GitResume] Generating professional resume for Divya4879...
+✅ [GitResume] Professional resume generated successfully for Divya4879
+ POST /api/resume 200 in 146ms (compile: 97ms, render: 49ms)
+📝 [GitResume] Generating professional resume for Divya4879...
+✅ [GitResume] Professional resume generated successfully for Divya4879
+ POST /api/resume 200 in 270ms (compile: 257ms, render: 13ms)
+ GET /git-resume?username=Divya4879&repos=GitResume%2CDSA-Interview-Ready%2CGitPortfolio%2CApexQuest%2CCognify 200 in 278ms (compile: 16ms, render: 262ms)
+🚀 Starting REAL AI analysis for Divya4879 with 5 repositories
+🔍 Real AI analysis: GitResume
+🔍 Real AI analysis: DSA-Interview-Ready
+🔍 Real AI analysis: GitPortfolio
+🔍 Real AI analysis: ApexQuest
+ GET /github-analysis 200 in 71ms (compile: 18ms, render: 53ms)
+🔍 Real AI analysis: Cognify
+ POST /api/analyze 200 in 26.9s (compile: 92ms, render: 26.8s)
+♻️ Cache hit for: /users/Divya4879
+♻️ Cache hit for: /users/Divya4879/repos?sort=updated&per_page=100
+ GET /api/github?username=Divya4879 200 in 27ms (compile: 7ms, render: 21ms)
+📝 [GitResume] Generating professional resume for Divya4879...
+✅ [GitResume] Professional resume generated successfully for Divya4879
+ POST /api/resume 200 in 43ms (compile: 4ms, render: 39ms)
+📡 API Call #3: /users/Divyamsharma-18
+📡 API Call #4: /users/Divyamsharma-18/repos?sort=updated&per_page=100
+ GET /api/github?username=Divyamsharma-18 200 in 1786ms (compile: 6ms, render: 1779ms)
+ GET /git-resume?username=Divyamsharma-18&repos=DevDisplay%2CToolJet%2CDFoodApp%2Copensourcediversity.org%2CReadme-Garden%2CDNewsApp 200 in 33ms (compile: 13ms, render: 20ms)
+🚀 Starting REAL AI analysis for Divyamsharma-18 with 6 repositories
+🔍 Real AI analysis: DevDisplay
+🚀 Starting REAL AI analysis for Divyamsharma-18 with 6 repositories
+🔍 Real AI analysis: DevDisplay
+🔍 Real AI analysis: ToolJet
+🔍 Real AI analysis: ToolJet
+🔍 Real AI analysis: DFoodApp
+🔍 Real AI analysis: DFoodApp
+🔍 Real AI analysis: opensourcediversity.org
+🔍 Real AI analysis: opensourcediversity.org
+🔍 Real AI analysis: Readme-Garden
+🔍 Real AI analysis: Readme-Garden
+🔍 Real AI analysis: DNewsApp
+🔍 Real AI analysis: DNewsApp
+ POST /api/analyze 200 in 18.6s (compile: 57ms, render: 18.5s)
+♻️ Cache hit for: /users/Divyamsharma-18
+♻️ Cache hit for: /users/Divyamsharma-18/repos?sort=updated&per_page=100
+ GET /api/github?username=Divyamsharma-18 200 in 37ms (compile: 8ms, render: 29ms)
+📝 [GitResume] Generating professional resume for Divyamsharma-18...
+✅ [GitResume] Professional resume generated successfully for Divyamsharma-18
+ POST /api/resume 200 in 24ms (compile: 12ms, render: 12ms)
+ POST /api/analyze 200 in 19.3s (compile: 7ms, render: 19.3s)
+♻️ Cache hit for: /users/Divyamsharma-18
+♻️ Cache hit for: /users/Divyamsharma-18/repos?sort=updated&per_page=100
+ GET /api/github?username=Divyamsharma-18 200 in 12ms (compile: 4ms, render: 8ms)
+📝 [GitResume] Generating professional resume for Divyamsharma-18...
+✅ [GitResume] Professional resume generated successfully for Divyamsharma-18
+ POST /api/resume 200 in 46ms (compile: 3ms, render: 43ms)
+ GET /git-resume?username=Divyamsharma-18&repos=DevDisplay%2CToolJet%2CDFoodApp%2Copensourcediversity.org%2CReadme-Garden%2CDNewsApp 200 in 80ms (compile: 7ms, render: 72ms)
+🚀 Starting Advanced Tiger Multi-Agent Analysis for Divyamsharma-18
+🚀 Starting Advanced Multi-Agent Analysis...
+🐅 Initializing Advanced Tiger Multi-Agent System...
+🚀 Creating service 'advanced-gitresume'...
+✅ Service creation request accepted!
+📋 Service ID: xykejkfqxm
+🔐 Password saved to ~/.pgpass for automatic authentication
+🎯 Set service 'xykejkfqxm' as default service.
+⏳ Waiting for service to be ready (wait timeout: 30m0s)...
+⢎  Service status: QUEUED
+🎉 Service is ready and running!
+🔌 Run 'tiger db connect' to connect to your new service
+🎯 Tiger Service Created: │
+└───────────────────┴──────────────────────────────────────────────────────────────────────────────────────────────────┘
+Error: unknown command "fork" for "tiger"
+Run 'tiger --help' for usage.
+/bin/sh: 2: └───────────────────┴──────────────────────────────────────────────────────────────────────────────────────────────────┘: File name too long
+⚠️ Fork creation failed for code-architect, using shared workspace
+Error: unknown command "fork" for "tiger"
+Run 'tiger --help' for usage.
+/bin/sh: 2: └───────────────────┴──────────────────────────────────────────────────────────────────────────────────────────────────┘: File name too long
+⚠️ Fork creation failed for tech-scout, using shared workspace
+Error: unknown command "fork" for "tiger"
+Run 'tiger --help' for usage.
+/bin/sh: 2: └───────────────────┴──────────────────────────────────────────────────────────────────────────────────────────────────┘: File name too long
+⚠️ Fork creation failed for career-advisor, using shared workspace
+Error: unknown command "fork" for "tiger"
+Run 'tiger --help' for usage.
+/bin/sh: 2: └───────────────────┴──────────────────────────────────────────────────────────────────────────────────────────────────┘: File name too long
+⚠️ Fork creation failed for innovation-detector, using shared workspace
+🔍 Multi-Agent Analysis: DevDisplay
+🔍 Multi-Agent Analysis: ToolJet
+🔍 Multi-Agent Analysis: DFoodApp
+🔍 Multi-Agent Analysis: opensourcediversity.org
+🔍 Multi-Agent Analysis: Readme-Garden
+🔍 Multi-Agent Analysis: DNewsApp
+ POST /api/analyze 200 in 49s (compile: 80ms, render: 49s)
+ GET /github-analysis 200 in 129ms (compile: 9ms, render: 120ms)
+No README found for Readme-Garden
+No README found for Readme-Garden
+No README found for Readme-Garden
+No README found for Readme-Garden
+🔍 Detecting Cross-Repository Patterns...
+🧠 Updating Agent Learning Models...
+💼 Generating Career Profile with Actionables...
+✅ Advanced Tiger Analysis Complete: 6.1/10
+🎯 Career Profile: Technology Innovation Specialist (85% confidence)
+🔍 Cross-repo patterns found: 6
+[?25h

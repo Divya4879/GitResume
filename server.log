@@ -1,0 +1,232 @@
+
+> gitresume@0.1.0 start
+> next start
+
+   ▲ Next.js 16.0.1
+   - Local:        http://localhost:3000
+   - Network:      http://10.255.255.254:3000
+
+ ✓ Starting...
+ ✓ Ready in 495ms
+GitHub token loaded: YES
+Token starts with: ghp_vu7Nwq
+📡 API Call #1: /users/Divya4879
+📡 API Call #2: /users/Divya4879/repos?sort=updated&per_page=100
+GitHub API error: TypeError: fetch failed
+    at async w.fetchGitHub (.next/server/chunks/[root-of-the-server]__73113e9b._.js:1:1907)
+    at async w.getUserRepositories (.next/server/chunks/[root-of-the-server]__73113e9b._.js:1:4137)
+    at async y (.next/server/chunks/[root-of-the-server]__73113e9b._.js:1:5709)
+    at async c (.next/server/chunks/[root-of-the-server]__73113e9b._.js:1:9492) {
+  [cause]: AggregateError: 
+      at ignore-listed frames {
+    code: 'ETIMEDOUT'
+  }
+}
+🚀 Starting Tiger Cloud analysis for Divya4879 with 5 repositories
+🚀 Starting Tiger Cloud analysis for Divya4879
+🐅 Tiger Service ID: xahs2zgwkg
+🔧 Testing Tiger CLI connection...
+✅ Tiger CLI connected successfully
+📊 Processing 5 repositories with Tiger Cloud
+🔍 Tiger analysis: TestPrepGame
+cto agent failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 6.358792213s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"},"quotaValue":"50"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"6s"}]
+    at es (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:5116)
+    at async en (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:4929)
+    at async eg (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:10630)
+    at async eS.analyzeWithAgent (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:21148)
+    at async eS.analyzeRepositories (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:20065)
+    at async eb (.next/server/chunks/[root-of-the-server]__b86465bd._.js:26:1087) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [Array]
+}
+recruiter agent failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 6.358966114s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"},"quotaValue":"50"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"6s"}]
+    at es (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:5116)
+    at async en (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:4929)
+    at async eg (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:10630)
+    at async eS.analyzeWithAgent (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:21148)
+    at async eS.analyzeRepositories (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:20065)
+    at async eb (.next/server/chunks/[root-of-the-server]__b86465bd._.js:26:1087) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [Array]
+}
+engineer agent failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 6.358860164s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"},"quotaValue":"50"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"6s"}]
+    at es (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:5116)
+    at async en (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:4929)
+    at async eg (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:10630)
+    at async eS.analyzeWithAgent (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:21148)
+    at async eS.analyzeRepositories (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:20065)
+    at async eb (.next/server/chunks/[root-of-the-server]__b86465bd._.js:26:1087) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [Array]
+}
+🔍 Tiger analysis: DSA-Interview-Ready
+engineer agent failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 6.090071033s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"},"quotaValue":"50"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"6s"}]
+    at es (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:5116)
+    at async en (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:4929)
+    at async eg (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:10630)
+    at async eS.analyzeWithAgent (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:21148)
+    at async eS.analyzeRepositories (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:20065)
+    at async eb (.next/server/chunks/[root-of-the-server]__b86465bd._.js:26:1087) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [Array]
+}
+cto agent failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 6.071201914s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"},"quotaValue":"50"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"6s"}]
+    at es (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:5116)
+    at async en (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:4929)
+    at async eg (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:10630)
+    at async eS.analyzeWithAgent (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:21148)
+    at async eS.analyzeRepositories (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:20065)
+    at async eb (.next/server/chunks/[root-of-the-server]__b86465bd._.js:26:1087) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [Array]
+}
+recruiter agent failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 6.071661775s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"},"quotaValue":"50"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"6s"}]
+    at es (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:5116)
+    at async en (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:4929)
+    at async eg (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:10630)
+    at async eS.analyzeWithAgent (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:21148)
+    at async eS.analyzeRepositories (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:20065)
+    at async eb (.next/server/chunks/[root-of-the-server]__b86465bd._.js:26:1087) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [Array]
+}
+🔍 Tiger analysis: GitPortfolio
+recruiter agent failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 5.731067851s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"},"quotaValue":"50"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"5s"}]
+    at es (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:5116)
+    at async en (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:4929)
+    at async eg (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:10630)
+    at async eS.analyzeWithAgent (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:21148)
+    at async eS.analyzeRepositories (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:20065)
+    at async eb (.next/server/chunks/[root-of-the-server]__b86465bd._.js:26:1087) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [Array]
+}
+engineer agent failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 5.715284015s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"},"quotaValue":"50"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"5s"}]
+    at es (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:5116)
+    at async en (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:4929)
+    at async eg (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:10630)
+    at async eS.analyzeWithAgent (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:21148)
+    at async eS.analyzeRepositories (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:20065)
+    at async eb (.next/server/chunks/[root-of-the-server]__b86465bd._.js:26:1087) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [Array]
+}
+cto agent failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 5.745466481s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"},"quotaValue":"50"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"5s"}]
+    at es (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:5116)
+    at async en (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:4929)
+    at async eg (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:10630)
+    at async eS.analyzeWithAgent (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:21148)
+    at async eS.analyzeRepositories (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:20065)
+    at async eb (.next/server/chunks/[root-of-the-server]__b86465bd._.js:26:1087) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [Array]
+}
+🔍 Tiger analysis: ApexQuest
+engineer agent failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 5.454170791s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"},"quotaValue":"50"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"5s"}]
+    at es (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:5116)
+    at async en (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:4929)
+    at async eg (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:10630)
+    at async eS.analyzeWithAgent (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:21148)
+    at async eS.analyzeRepositories (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:20065)
+    at async eb (.next/server/chunks/[root-of-the-server]__b86465bd._.js:26:1087) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [Array]
+}
+cto agent failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 5.442751394s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"},"quotaValue":"50"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"5s"}]
+    at es (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:5116)
+    at async en (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:4929)
+    at async eg (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:10630)
+    at async eS.analyzeWithAgent (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:21148)
+    at async eS.analyzeRepositories (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:20065)
+    at async eb (.next/server/chunks/[root-of-the-server]__b86465bd._.js:26:1087) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [Array]
+}
+recruiter agent failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 5.438125399s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.0-flash-exp","location":"global"},"quotaValue":"50"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"5s"}]
+    at es (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:5116)
+    at async en (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:4929)
+    at async eg (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:10630)
+    at async eS.analyzeWithAgent (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:21148)
+    at async eS.analyzeRepositories (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:20065)
+    at async eb (.next/server/chunks/[root-of-the-server]__b86465bd._.js:26:1087) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [Array]
+}
+🔍 Tiger analysis: Cognify
+engineer agent failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 5.128093918s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"},"quotaValue":"50"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"5s"}]
+    at es (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:5116)
+    at async en (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:4929)
+    at async eg (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:10630)
+    at async eS.analyzeWithAgent (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:21148)
+    at async eS.analyzeRepositories (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:20065)
+    at async eb (.next/server/chunks/[root-of-the-server]__b86465bd._.js:26:1087) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [Array]
+}
+recruiter agent failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 5.117098988s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"},"quotaValue":"50"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"5s"}]
+    at es (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:5116)
+    at async en (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:4929)
+    at async eg (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:10630)
+    at async eS.analyzeWithAgent (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:21148)
+    at async eS.analyzeRepositories (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:20065)
+    at async eb (.next/server/chunks/[root-of-the-server]__b86465bd._.js:26:1087) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [Array]
+}
+cto agent failed: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 50
+Please retry in 5.110909355s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"},"quotaValue":"50"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"5s"}]
+    at es (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:5116)
+    at async en (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:4929)
+    at async eg (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:10630)
+    at async eS.analyzeWithAgent (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:21148)
+    at async eS.analyzeRepositories (.next/server/chunks/[root-of-the-server]__b86465bd._.js:1:20065)
+    at async eb (.next/server/chunks/[root-of-the-server]__b86465bd._.js:26:1087) {
+  status: 429,
+  statusText: 'Too Many Requests',
+  errorDetails: [Array]
+}
+✅ Tiger Cloud analysis complete: 6.0/10
+✅ Tiger Cloud analysis complete for Divya4879: 6/10

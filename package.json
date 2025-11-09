@@ -21,6 +21,7 @@
     "recharts": "^3.3.0"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.7.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

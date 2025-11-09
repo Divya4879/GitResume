@@ -1,0 +1,46 @@
+
+> gitresume@0.1.0 start
+> next start
+
+   ▲ Next.js 16.0.1
+   - Local:        http://localhost:3000
+   - Network:      http://10.255.255.254:3000
+
+ ✓ Starting...
+ ✓ Ready in 472ms
+GitHub token loaded: YES
+Token starts with: ghp_vu7Nwq
+🚀 Starting Tiger Cloud veteran analysis for Divya4879 with 5 repositories
+🚀 Starting Tiger Cloud veteran analysis for Divya4879
+🐅 Tiger Service ID: xahs2zgwkg
+🔧 Testing Tiger CLI connection...
+✅ Tiger CLI connected successfully
+📊 Processing 5 repositories with Tiger Cloud veteran analysis
+🔍 Tiger veteran analysis: GitResume
+🔍 Tiger veteran analysis: DSA-Interview-Ready
+🔍 Tiger veteran analysis: GitPortfolio
+🔍 Tiger veteran analysis: Cognify
+🔍 Tiger veteran analysis: ApexQuest
+✅ Tiger Cloud veteran analysis complete: 7.4/10
+✅ Tiger veteran analysis complete for Divya4879: 7.4/10
+📡 API Call #1: /users/Divya4879
+📡 API Call #2: /users/Divya4879/repos?sort=updated&per_page=100
+📝 [GitResume] Generating professional resume for Divya4879...
+✅ [GitResume] Professional resume generated successfully for Divya4879
+🚀 Starting Tiger Cloud veteran analysis for Divya4879 with 5 repositories
+🚀 Starting Tiger Cloud veteran analysis for Divya4879
+🐅 Tiger Service ID: xahs2zgwkg
+🔧 Testing Tiger CLI connection...
+✅ Tiger CLI connected successfully
+📊 Processing 5 repositories with Tiger Cloud veteran analysis
+🔍 Tiger veteran analysis: GitResume
+🔍 Tiger veteran analysis: DSA-Interview-Ready
+🔍 Tiger veteran analysis: GitPortfolio
+🔍 Tiger veteran analysis: Cognify
+🔍 Tiger veteran analysis: ApexQuest
+✅ Tiger Cloud veteran analysis complete: 7.4/10
+✅ Tiger veteran analysis complete for Divya4879: 7.4/10
+♻️ Cache hit for: /users/Divya4879
+♻️ Cache hit for: /users/Divya4879/repos?sort=updated&per_page=100
+📝 [GitResume] Generating professional resume for Divya4879...
+✅ [GitResume] Professional resume generated successfully for Divya4879

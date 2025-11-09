@@ -472,7 +472,7 @@ function GitResumeContent() {
             </div>
 
             {/* Individual Repository Analysis */}
-            {analyses?.repositoryInsights && (
+            {(analyses as any)?.repositoryInsights && (
               <div className="mb-8">
                 <h3 className="text-2xl font-bold text-white mb-6">Individual Repository Analysis</h3>
                 <div className="grid gap-6">
