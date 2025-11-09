@@ -26,6 +26,28 @@ interface AnalysisData {
     totalInsights: number;
     recommendations: string[];
   }>;
+  repositoryInsights?: Array<{
+    repository: string;
+    category: string;
+    score: number;
+    insights: string[];
+    actionables: string[];
+    patterns: string[];
+    agentLearnings: string[];
+  }>;
+  careerProfile?: {
+    detectedRole: string;
+    confidence: number;
+    reasoning: string[];
+    hiringPath: {
+      nextProjects: string[];
+      techStackGaps: string[];
+      conceptsToLearn: string[];
+      portfolioImprovements: string[];
+    };
+  };
+  crossRepoPatterns?: any[];
+  agentLearningEvolution?: any[];
 }
 
 function GitResumeContent() {
