@@ -1,40 +1,46 @@
-# # 🐅 GitResume - AI-Powered Developer Portfolio Analysis
+# 🐅 GitResume : TigerData-Powered Github Resume Analyzer
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://gitresumeassessment.netlify.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitResume-brightgreen)](https://gitresumeassessment.netlify.app)
 [![Next.js](https://img.shields.io/badge/Next.js-16.0.1-black)](https://nextjs.org/)
-[![Tiger Cloud](https://img.shields.io/badge/Tiger%20Cloud-Agentic%20Postgres-purple)](https://tigerdata.co/)
+[![Tiger Cloud](https://img.shields.io/badge/Tiger%20Cloud-Agentic%20Postgres-purple)](https://tigerdata.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
 
-> **Transform your GitHub repositories into professional developer insights with AI-powered multi-agent analysis**
+**Transform your GitHub repositories into professional developer insights with AI-powered multi-agent analysis**
 
-GitResume is an innovative platform that leverages Tiger Cloud's Agentic Postgres to provide comprehensive analysis of GitHub repositories through specialized AI agents, delivering actionable career guidance and professional development recommendations.
+GitResume leverages Tiger Cloud's Agentic Postgres architecture to provide comprehensive analysis of GitHub repositories through 4
+specialized AI agents. The platform integrates Tiger CLI for service management and implements a multi-agent system that analyzes
+real repository code, providing actionable career guidance and professional development recommendations.
 
-## 🌟 **Live Demo**
+---
 
-**🔗 [https://gitresumeassessment.netlify.app](https://gitresumeassessment.netlify.app)**
+## 🎥 **Live Demo**
+
+**🔗 Check it out here: [GitResumeAssessment](https://gitresumeassessment.netlify.app)**
+
+<img width="1920" height="3997" alt="screencapture-gitresumeassessment-netlify-app-2025-11-10-05_46_00" src="https://github.com/user-attachments/assets/d60f53de-31b0-4dc8-b27b-82c1175ae8cd" />
+
+---
 
 ## 🚀 **Key Features**
 
 ### **🤖 Multi-Agent AI Analysis System**
 - **4 Specialized AI Agents** working in parallel:
-  - **Code Architect**: Analyzes code structure, design patterns, and architectural quality
-  - **Tech Scout**: Evaluates technology stack, framework usage, and modern practices
-  - **Career Advisor**: Assesses professional readiness and portfolio quality
-  - **Innovation Detector**: Identifies cutting-edge technologies and problem-solving approaches
+  - **Code Architect**: Analyzes code structure, design patterns, and architectural quality.
+  - **Tech Scout**: Evaluates technology stack, framework usage, and modern practices.
+  - **Career Advisor**: Assesses professional readiness and portfolio quality.
+  - **Innovation Detector**: Identifies cutting-edge technologies and problem-solving approaches.
 
 ### **🐅 Advanced Tiger Cloud Integration**
-- **Database Forks**: Separate isolated workspaces for each AI agent
-- **Real-time Collaboration**: Multi-agent coordination through Tiger MCP protocol
-- **pg_text Search**: Semantic pattern detection across repositories
-- **Agent Learning Evolution**: AI agents improve accuracy over time
-- **Fluid Storage**: Dynamic scaling for analysis workloads
+- **pg_text Search**: Semantic pattern detection across repositories.
+- **Agent Learning Evolution**: AI agents improve accuracy over time.
+- **Fluid Storage**: Dynamic scaling for analysis workloads.
 
 ### **📊 Comprehensive Analysis Features**
-- **Individual Repository Insights**: Detailed 2-3 line analysis per repository
-- **Cross-Repository Pattern Detection**: Identifies consistent patterns across projects
-- **Career Profile Generation**: Role detection with confidence scoring
-- **Actionable Recommendations**: Specific next steps for career advancement
-- **Professional Scoring**: Quantitative assessment across multiple dimensions
+- **Individual Repository Insights**: Detailed 2-3 lines analysis per repository.
+- **Cross-Repository Pattern Detection**: Identifies consistent patterns across projects.
+- **Career Profile Generation**: Role detection with confidence scoring.
+- **Actionable Recommendations**: Specific next steps for career advancement.
+- **Professional Scoring**: Quantitative assessment across multiple dimensions.
 
 ### **💼 Career Guidance System**
 - **Role Detection**: Automatically identifies career trajectory (Full-Stack Developer, Senior Engineer, etc.)
@@ -43,7 +49,8 @@ GitResume is an innovative platform that leverages Tiger Cloud's Agentic Postgre
   - Technology stack gaps
   - Concepts to learn
   - Portfolio improvements
-- **Industry-Aligned Insights**: Recommendations based on current market demands
+
+---
 
 ## 🏗️ **Architecture**
 
@@ -77,6 +84,8 @@ class AdvancedTigerSystem {
 }
 ```
 
+---
+
 ## 🛠️ **Installation & Setup**
 
 ### **Prerequisites**
@@ -84,6 +93,7 @@ class AdvancedTigerSystem {
 - npm or yarn
 - Tiger Cloud account
 - GitHub Personal Access Token
+- Gemini AI API Key
 
 ### **Local Development**
 
@@ -121,7 +131,10 @@ npm run dev
 ```
 
 5. **Access the application**
+
 Open [http://localhost:3000](http://localhost:3000)
+
+---
 
 ## 🔧 **API Endpoints**
 
@@ -137,7 +150,7 @@ POST /api/analyze
 **Response:**
 ```typescript
 {
-  "overallDeveloperScore": 8.5,
+  "overallDeveloperScore": 0-1,
   "repositoryInsights": [...],
   "careerProfile": {
     "detectedRole": "Full-Stack Developer",
@@ -154,30 +167,23 @@ POST /api/analyze
 GET /api/github?username=github_username
 ```
 
-## 🎯 **Usage Examples**
+---
+
+## 🎯 **Usage Flow**
 
 ### **Basic Analysis**
 1. Enter your GitHub username
-2. Select repositories to analyze
-3. Wait for multi-agent analysis (2-3 minutes)
+2. Chose your best repositories to analyze
+3. Wait for multi-agent analysis (2-5 secs)
 4. Review comprehensive insights and recommendations
 
 ### **Advanced Features**
 - **Individual Repository Analysis**: Detailed breakdown per repository
 - **Career Guidance**: Role-specific recommendations and hiring paths
 - **Cross-Repository Insights**: Patterns detected across your entire portfolio
-- **Learning Evolution**: Track AI agent improvements over time
 
-## 🏆 **Built for Tiger Cloud Agentic Postgres Challenge**
+---
 
-This project showcases innovative use of Tiger Cloud's Agentic Postgres features:
-
-- **✅ Multi-agent collaboration** using separate database forks
-- **✅ Real-time coordination** through Tiger MCP protocol
-- **✅ Advanced pg_text search** for semantic analysis
-- **✅ Agent learning evolution** with performance tracking
-- **✅ Fluid storage** for dynamic scaling
-- **✅ Creative application** of Agentic Postgres capabilities
 
 ## 📈 **Performance & Scalability**
 
@@ -186,12 +192,16 @@ This project showcases innovative use of Tiger Cloud's Agentic Postgres features
 - **Serverless Architecture**: Auto-scaling with Netlify Functions
 - **Real-time Updates**: Live progress tracking during analysis
 
+---
+
 ## 🔒 **Security & Privacy**
 
 - **Secure API Integration**: Environment variables for sensitive data
 - **GitHub Token Scoping**: Minimal required permissions
 - **No Data Storage**: Analysis results are not permanently stored
 - **Privacy-First**: Only public repository data is analyzed
+
+---
 
 ## 🚀 **Deployment**
 
@@ -209,6 +219,8 @@ NEXTAUTH_SECRET=your_production_secret
 NEXTAUTH_URL=https://your-domain.netlify.app
 ```
 
+---
+
 ## 🤝 **Contributing**
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -219,33 +231,14 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+---
+
 ## 📄 **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 **Author**
-
-**Divya**
-- GitHub: [@Divya4879](https://github.com/Divya4879)
-- Project: [GitResume](https://github.com/Divya4879/GitResume)
-
-## 🙏 **Acknowledgments**
-
-- **Tiger Cloud** for providing Agentic Postgres platform
-- **Next.js Team** for the excellent framework
-- **GitHub API** for repository data access
-- **Google Gemini AI** for enhanced analysis capabilities
-
-## 📊 **Project Stats**
-
-- **Languages**: TypeScript, JavaScript, CSS
-- **Framework**: Next.js 16.0.1
-- **Database**: Tiger Cloud Agentic Postgres
-- **Deployment**: Netlify
-- **AI Integration**: Multi-agent system with learning evolution
-
 ---
 
-**Built with 💜 by Divya for the Tiger Cloud Agentic Postgres Challenge**
+**Built with 💜 by Divya for the Tiger Cloud Agentic Postgres Challenge**.
 
 *Transform your GitHub into professional insights - [Try GitResume Now](https://gitresumeassessment.netlify.app)*
