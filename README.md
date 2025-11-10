@@ -1,80 +1,96 @@
-# GitResume - AI-Powered Developer Portfolio Generator
+# # 🐅 GitResume - AI-Powered Developer Portfolio Analysis
 
-🏆 **Built for the Agentic Postgres Challenge**
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://gitresumeassessment.netlify.app)
+[![Next.js](https://img.shields.io/badge/Next.js-16.0.1-black)](https://nextjs.org/)
+[![Tiger Cloud](https://img.shields.io/badge/Tiger%20Cloud-Agentic%20Postgres-purple)](https://tigerdata.co/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
 
-Transform your GitHub profile into a professional resume using advanced multi-agent AI analysis powered by Agentic Postgres.
+> **Transform your GitHub repositories into professional developer insights with AI-powered multi-agent analysis**
 
-## 🚀 Live Demo
+GitResume is an innovative platform that leverages Tiger Cloud's Agentic Postgres to provide comprehensive analysis of GitHub repositories through specialized AI agents, delivering actionable career guidance and professional development recommendations.
 
-[Visit GitResume](https://your-deployment-url.vercel.app)
+## 🌟 **Live Demo**
 
-## ✨ Features
+**🔗 [https://gitresumeassessment.netlify.app](https://gitresumeassessment.netlify.app)**
 
-### 🤖 Multi-Agent AI Analysis
-- **6 Specialized Agents** working in parallel using separate database forks
-- **Code Architect Agent** - Analyzes design patterns, architecture quality, SOLID principles
-- **Security Auditor Agent** - Detects vulnerabilities, evaluates security practices
-- **Performance Detective Agent** - Identifies optimization opportunities, scalability issues
-- **Innovation Scout Agent** - Discovers cutting-edge tech usage, creative solutions
-- **Collaboration Analyst Agent** - Evaluates teamwork patterns, code review quality
-- **Impact Assessor Agent** - Measures real-world usage, community adoption
+## 🚀 **Key Features**
 
-### 🔧 Agentic Postgres Integration
-- **Tiger MCP** - Seamless multi-agent communication protocol
-- **Fast Zero-Copy Forks** - Isolated agent workspaces for parallel processing
-- **Hybrid Search** - Combines pg_text search with semantic analysis
-- **Fluid Storage** - Dynamic scaling based on repository complexity
+### **🤖 Multi-Agent AI Analysis System**
+- **4 Specialized AI Agents** working in parallel:
+  - **Code Architect**: Analyzes code structure, design patterns, and architectural quality
+  - **Tech Scout**: Evaluates technology stack, framework usage, and modern practices
+  - **Career Advisor**: Assesses professional readiness and portfolio quality
+  - **Innovation Detector**: Identifies cutting-edge technologies and problem-solving approaches
 
-### 📊 Intelligent Analysis
-- **Smart Repository Ranking** - AI-powered selection of your best projects
-- **Comprehensive Scoring** - Detailed evaluation across multiple dimensions
-- **Career Insights** - Personalized recommendations for skill development
-- **Interactive Visualizations** - Radar charts, progress tracking, skill breakdowns
+### **🐅 Advanced Tiger Cloud Integration**
+- **Database Forks**: Separate isolated workspaces for each AI agent
+- **Real-time Collaboration**: Multi-agent coordination through Tiger MCP protocol
+- **pg_text Search**: Semantic pattern detection across repositories
+- **Agent Learning Evolution**: AI agents improve accuracy over time
+- **Fluid Storage**: Dynamic scaling for analysis workloads
 
-## 🛠️ Technology Stack
+### **📊 Comprehensive Analysis Features**
+- **Individual Repository Insights**: Detailed 2-3 line analysis per repository
+- **Cross-Repository Pattern Detection**: Identifies consistent patterns across projects
+- **Career Profile Generation**: Role detection with confidence scoring
+- **Actionable Recommendations**: Specific next steps for career advancement
+- **Professional Scoring**: Quantitative assessment across multiple dimensions
 
-- **Frontend**: Next.js 14, TypeScript, Tailwind CSS, Framer Motion
-- **Backend**: Next.js API Routes, Serverless Functions
-- **Database**: Agentic Postgres (Tiger Cloud)
-- **AI**: Google Gemini API
-- **APIs**: GitHub REST API
-- **Deployment**: Vercel/Netlify
+### **💼 Career Guidance System**
+- **Role Detection**: Automatically identifies career trajectory (Full-Stack Developer, Senior Engineer, etc.)
+- **Hiring Path Recommendations**: 
+  - Next project suggestions
+  - Technology stack gaps
+  - Concepts to learn
+  - Portfolio improvements
+- **Industry-Aligned Insights**: Recommendations based on current market demands
 
-## 🏗️ Architecture
+## 🏗️ **Architecture**
 
+### **Frontend**
+- **Next.js 16.0.1** with App Router
+- **React 19** with TypeScript
+- **Tailwind CSS 4** for styling
+- **Framer Motion** for animations
+- **Recharts** for data visualization
+
+### **Backend**
+- **Next.js API Routes** as serverless functions
+- **Tiger Cloud CLI** integration
+- **GitHub API** for repository data
+- **Google Gemini AI** for enhanced analysis
+
+### **Multi-Agent System**
+```typescript
+class AdvancedTigerSystem {
+  // Creates separate Tiger database forks for each agent
+  async initializeMultiAgentSystem(username: string)
+  
+  // Runs parallel analysis with real-time collaboration
+  async analyzeWithAdvancedAgents(username: string, repositories: string[])
+  
+  // Detects patterns across repositories using pg_text search
+  async detectCrossRepoPatterns(insights: AgentInsight[])
+  
+  // Generates career profile with actionable recommendations
+  async generateCareerProfile(insights: AgentInsight[], patterns: any[])
+}
 ```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Frontend      │    │   API Routes     │    │  Agentic        │
-│   (Next.js)     │◄──►│   (Serverless)   │◄──►│  Postgres       │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-                                │                        │
-                                ▼                        ▼
-                       ┌──────────────────┐    ┌─────────────────┐
-                       │   GitHub API     │    │  Agent Forks    │
-                       │   Integration    │    │  (Parallel)     │
-                       └──────────────────┘    └─────────────────┘
-                                │                        │
-                                ▼                        ▼
-                       ┌──────────────────┐    ┌─────────────────┐
-                       │   Gemini AI      │    │  Tiger MCP      │
-                       │   Analysis       │    │  Communication  │
-                       └──────────────────┘    └─────────────────┘
-```
 
-## 🚀 Quick Start
+## 🛠️ **Installation & Setup**
 
-### Prerequisites
-- Node.js 18+
+### **Prerequisites**
+- Node.js 20+
+- npm or yarn
 - Tiger Cloud account
 - GitHub Personal Access Token
-- Google Gemini API key
 
-### Installation
+### **Local Development**
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/gitresume.git
-cd gitresume
+git clone https://github.com/Divya4879/GitResume.git
+cd GitResume
 ```
 
 2. **Install dependencies**
@@ -82,175 +98,154 @@ cd gitresume
 npm install
 ```
 
-3. **Set up environment variables**
-```bash
-cp .env.example .env.local
-```
-
-Fill in your environment variables:
+3. **Environment Configuration**
+Create `.env.local` file:
 ```env
-TIGER_DATABASE_URL=postgresql://username:password@host:port/database
+# GitHub API
+GITHUB_TOKEN=your_github_token_here
+
+# Google Gemini AI
 GEMINI_API_KEY=your_gemini_api_key_here
-GITHUB_TOKEN=github_pat_your_token_here
-NEXTAUTH_SECRET=your_nextauth_secret
+
+# Tiger Cloud Database
+TIGER_DATABASE_URL=your_tiger_database_url_here
+
+# Next.js Authentication
+NEXTAUTH_SECRET=your_secret_key_here
 NEXTAUTH_URL=http://localhost:3000
 ```
 
-4. **Run the development server**
+4. **Run development server**
 ```bash
 npm run dev
 ```
 
-5. **Open your browser**
-Navigate to `http://localhost:3000`
+5. **Access the application**
+Open [http://localhost:3000](http://localhost:3000)
 
-## 🔧 Setup Guide
+## 🔧 **API Endpoints**
 
-### 1. Tiger Cloud Setup
-1. Visit [Tiger Cloud](https://cloud.timescale.com)
-2. Create a free account
-3. Create a new Agentic Postgres database
-4. Copy the connection string to `TIGER_DATABASE_URL`
-
-### 2. GitHub Token Setup
-1. Go to GitHub Settings → Developer settings → Personal access tokens
-2. Generate a new token with `repo` and `user` scopes
-3. Add to `GITHUB_TOKEN` in your environment
-
-### 3. Gemini API Setup
-1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
-2. Create a new API key
-3. Add to `GEMINI_API_KEY` in your environment
-
-## 📁 Project Structure
-
-```
-gitresume/
-├── src/
-│   ├── app/
-│   │   ├── api/
-│   │   │   ├── github/route.ts      # GitHub API integration
-│   │   │   ├── analyze/route.ts     # AI analysis endpoint
-│   │   │   └── resume/route.ts      # Resume generation
-│   │   ├── analyze/page.tsx         # Analysis interface
-│   │   └── page.tsx                 # Landing page
-│   └── lib/
-│       ├── agents.ts                # Multi-agent system
-│       ├── database.ts              # Agentic Postgres integration
-│       └── github.ts                # GitHub service
-├── .env.example                     # Environment template
-└── README.md
-```
-
-## 🎯 Key Features Showcase
-
-### Multi-Agent Collaboration
+### **Analysis API**
 ```typescript
-// Each agent gets its own database fork
-const codeAgent = await createAgentFork('code_analysis');
-const securityAgent = await createAgentFork('security_audit');
-
-// Agents communicate via Tiger MCP
-const collaborativeResult = await agentCollaboration([
-  codeAgent, securityAgent, performanceAgent
-]);
+POST /api/analyze
+{
+  "username": "github_username",
+  "repositories": ["repo1", "repo2", "repo3"]
+}
 ```
 
-### Hybrid Search Implementation
-```sql
--- Combines full-text and semantic search
-SELECT * FROM repositories 
-WHERE to_tsvector(repo_data) @@ plainto_tsquery('authentication')
-AND embedding <-> query_embedding < 0.3;
+**Response:**
+```typescript
+{
+  "overallDeveloperScore": 8.5,
+  "repositoryInsights": [...],
+  "careerProfile": {
+    "detectedRole": "Full-Stack Developer",
+    "confidence": 0.85,
+    "hiringPath": {...}
+  },
+  "crossRepoPatterns": [...],
+  "agentLearningEvolution": [...]
+}
 ```
 
-### Real-time Agent Status
-- Live progress tracking of each agent's analysis
-- Visual representation of agent collaboration
-- Real-time score updates and insights
+### **GitHub Integration**
+```typescript
+GET /api/github?username=github_username
+```
 
-## 🏆 Agentic Postgres Challenge Features
+## 🎯 **Usage Examples**
 
-This project showcases **every required feature** of the challenge:
+### **Basic Analysis**
+1. Enter your GitHub username
+2. Select repositories to analyze
+3. Wait for multi-agent analysis (2-3 minutes)
+4. Review comprehensive insights and recommendations
 
-✅ **Multi-agent collaboration using separate database forks**
-- 6 specialized agents with isolated workspaces
-- Parallel processing with zero-copy forks
+### **Advanced Features**
+- **Individual Repository Analysis**: Detailed breakdown per repository
+- **Career Guidance**: Role-specific recommendations and hiring paths
+- **Cross-Repository Insights**: Patterns detected across your entire portfolio
+- **Learning Evolution**: Track AI agent improvements over time
 
-✅ **Developer productivity hacks**
-- Automated skill gap analysis
-- Career path recommendations
-- Code quality insights
+## 🏆 **Built for Tiger Cloud Agentic Postgres Challenge**
 
-✅ **Novel uses of hybrid search**
-- Semantic code analysis
-- Cross-repository pattern matching
-- Intelligent repository ranking
+This project showcases innovative use of Tiger Cloud's Agentic Postgres features:
 
-✅ **Agent-first applications**
-- Collaborative debugging between agents
-- Dynamic agent specialization
-- Swarm intelligence for code analysis
+- **✅ Multi-agent collaboration** using separate database forks
+- **✅ Real-time coordination** through Tiger MCP protocol
+- **✅ Advanced pg_text search** for semantic analysis
+- **✅ Agent learning evolution** with performance tracking
+- **✅ Fluid storage** for dynamic scaling
+- **✅ Creative application** of Agentic Postgres capabilities
 
-✅ **Tiger MCP integration**
-- Real-time agent communication
-- Consensus building mechanisms
+## 📈 **Performance & Scalability**
 
-✅ **Tiger CLI usage**
-- Automated database operations
-- Bulk analysis processing
+- **Parallel Processing**: 4 agents analyze repositories simultaneously
+- **Efficient Caching**: Optimized GitHub API usage
+- **Serverless Architecture**: Auto-scaling with Netlify Functions
+- **Real-time Updates**: Live progress tracking during analysis
 
-✅ **pg_text search**
-- Full-text search across code and documentation
-- Pattern recognition and best practice mining
+## 🔒 **Security & Privacy**
 
-✅ **Fast, zero-copy forks**
-- Instant agent workspace creation
-- Efficient parallel processing
+- **Secure API Integration**: Environment variables for sensitive data
+- **GitHub Token Scoping**: Minimal required permissions
+- **No Data Storage**: Analysis results are not permanently stored
+- **Privacy-First**: Only public repository data is analyzed
 
-✅ **Fluid Storage**
-- Dynamic scaling based on analysis complexity
-- Intelligent resource management
+## 🚀 **Deployment**
 
-## 🚀 Deployment
+### **Netlify Deployment**
+1. Connect GitHub repository to Netlify
+2. Configure environment variables in Netlify dashboard
+3. Deploy with automatic builds on push
 
-### Vercel Deployment
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Add environment variables in Vercel dashboard
-4. Deploy!
+### **Environment Variables for Production**
+```env
+GITHUB_TOKEN=your_production_token
+GEMINI_API_KEY=your_production_key
+TIGER_DATABASE_URL=your_production_db_url
+NEXTAUTH_SECRET=your_production_secret
+NEXTAUTH_URL=https://your-domain.netlify.app
+```
 
-### Netlify Deployment
-1. Build the project: `npm run build`
-2. Deploy the `out` folder to Netlify
-3. Configure environment variables
-4. Set up serverless functions
+## 🤝 **Contributing**
 
-## 🤝 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'Add amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## 📄 **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## 👨‍💻 **Author**
 
-- **Tiger Data** for Agentic Postgres and the amazing challenge
-- **Google** for the Gemini AI API
-- **GitHub** for the comprehensive API
-- **Vercel** for seamless deployment
+**Divya**
+- GitHub: [@Divya4879](https://github.com/Divya4879)
+- Project: [GitResume](https://github.com/Divya4879/GitResume)
 
-## 📞 Contact
+## 🙏 **Acknowledgments**
 
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Email**: your.email@example.com
-- **Demo**: [GitResume Live](https://your-deployment-url.vercel.app)
+- **Tiger Cloud** for providing Agentic Postgres platform
+- **Next.js Team** for the excellent framework
+- **GitHub API** for repository data access
+- **Google Gemini AI** for enhanced analysis capabilities
+
+## 📊 **Project Stats**
+
+- **Languages**: TypeScript, JavaScript, CSS
+- **Framework**: Next.js 16.0.1
+- **Database**: Tiger Cloud Agentic Postgres
+- **Deployment**: Netlify
+- **AI Integration**: Multi-agent system with learning evolution
 
 ---
 
-**Built with ❤️ for the Agentic Postgres Challenge**
+**Built with 💜 by Divya for the Tiger Cloud Agentic Postgres Challenge**
+
+*Transform your GitHub into professional insights - [Try GitResume Now](https://gitresumeassessment.netlify.app)*
